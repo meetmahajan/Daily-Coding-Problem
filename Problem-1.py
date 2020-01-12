@@ -14,7 +14,9 @@ def find_sum_couple(arr, k):
         second = k - elt
         return second in arr
     return False
-
+'''
+comment for understanding the code 
+'''
 if __name__ == "__main__":
     result = find_sum_couple([10, 15, 3, 7], 17)
     print(result)
